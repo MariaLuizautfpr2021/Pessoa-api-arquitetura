@@ -13,6 +13,7 @@ public class PersonUtils {
     private static final String END_NAME = "Rua Lala";
     private static final String MUNICIPIO_NAME = "Cocoricó";
     private static final String PESSOA_NAME = "PJ";
+    private static final String Apelido = "Malu";
     private static final long PERSON_ID = 1L;
     public static final LocalDate BIRTH_DATE = LocalDate.of(2022, 10, 1);
 
@@ -28,6 +29,7 @@ public class PersonUtils {
                 .end(END_NAME)
                 .municipio(MUNICIPIO_NAME)
                 .pessoafj(PESSOA_NAME)
+                .apelido(APELIDO_NAME)
 
                 .build();
     }
@@ -39,6 +41,7 @@ public class PersonUtils {
                 .lastName(LAST_NAME)
                 .cpf(CPF_NUMBER)
                 .birthDate(BIRTH_DATE)
+                .apelido(APELIDO_NAME)
                 .end(END_NAME)
                 .municipio(MUNICIPIO_NAME)
                 .pessoafj(PESSOA_NAME)
